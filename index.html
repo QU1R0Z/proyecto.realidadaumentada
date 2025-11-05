@@ -17,11 +17,13 @@
         <a-assets>
             <a-asset-item id="monitor-modelo" src="./assets/monitor.glb"></a-asset-item>
         </a-assets>
-
+        
         <a-camera
             position="0 0 0"
             look-controls="enabled: false">
         </a-camera>
+
+        <a-marker preset='hiro'>
 
         <a-entity mindar-image-target="targetIndex: 0">
             <a-entity
@@ -32,10 +34,11 @@
                 animation-mixer>               
             </a-entity>
         </a-entity>
-
+            </a-marker>
         </a-scene>
 </body>
 </html>
+
 
 
 
